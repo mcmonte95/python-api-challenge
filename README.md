@@ -1,4 +1,4 @@
-# Weather and Vacation Analysis
+# Weather and Vacation Analysis: Python-API-Challenge
 
 ## Overview
 This project utilizes Python scripting to analyze weather data for over 500 cities at varying distances from the equator, leveraging the OpenWeatherMap API and the `citipy` library. The analysis aims to explore the relationship between weather variables and latitude. Additionally, the project uses the Geoapify API and the `geoviews` Python library to plan hypothetical vacations based on ideal weather conditions.
@@ -39,4 +39,22 @@ To use weather data to identify potential vacation destinations and nearby hotel
    - Create a map visualization with a point for every city. Point size represents humidity.
    - Add hotel names and country information in hover tooltips for each city.
 
+## Repository Guide
+This repository contains the following key files and folders:
+
+1. **WeatherPy.ipynb**: 
+   - A Jupyter Notebook containing the analysis for Part 1 of the project. 
+   - It includes the generation of city list, retrieval of weather data using OpenWeatherMap API, and creation of scatter plots with linear regression.
+
+2. **VacationPy.ipynb**: 
+   - A Jupyter Notebook for Part 2 of the project. 
+   - It focuses on using the weather data to identify potential vacation destinations, finding hotels using Geoapify API, and mapping the results with `geoviews`.
+
+3. **output_data** (folder): 
+   - Contains all the output data and visualizations generated from the WeatherPy analysis.
+   - Includes:
+     - Exported scatter plots with linear regression analysis.
+     - A CSV file of the generated city data used in both Part 1 and Part 2 of the project.
+
+## Usage
 
