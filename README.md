@@ -42,19 +42,19 @@ To use weather data to identify potential vacation destinations and nearby hotel
 ## Repository Guide
 This repository contains the following key files and folders:
 
-1. **WeatherPy.ipynb**: 
+1. **WeatherPy.ipynb**
    - A Jupyter Notebook containing the analysis for Part 1 of the project. 
    - It includes the generation of city list, retrieval of weather data using OpenWeatherMap API, and creation of scatter plots with linear regression.
 
-2. **VacationPy.ipynb**: 
+2. **VacationPy.ipynb** 
    - A Jupyter Notebook for Part 2 of the project. 
    - It focuses on using the weather data to identify potential vacation destinations, finding hotels using Geoapify API, and mapping the results with `geoviews`.
 
-3. **output_data** (folder): 
-   - Contains all the output data and visualizations generated from the WeatherPy analysis.
+3. **output_data** (folder) 
+   - Contains output data and visualizations generated from the WeatherPy analysis.
    - Includes:
      - Exported scatter plots with linear regression analysis.
      - A CSV file of the generated city data used in both Part 1 and Part 2 of the project.
 
-## Usage
+
 
