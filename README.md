@@ -37,7 +37,7 @@ To use weather data to identify potential vacation destinations and nearby hotel
 
 3. **Mapping**: 
    - Create a map visualization with a point for every city. Point size represents humidity.
-   - Add hotel names and country information in hover tooltips for each city.
+   - Filter down based on ideal conditions and add hotel names and country information in hover tooltips for each city on a second map.
 
 ## Repository Guide
 This repository contains the following key files and folders:
