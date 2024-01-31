@@ -1,7 +1,7 @@
 # Weather and Vacation Analysis
 
 ## Overview
-This project utilizes Python scripting to analyze weather data for over 500 cities at varying distances from the equator, leveraging the OpenWeatherMap API and the `citipy` library. The analysis aims to explore the relationship between weather variables and latitude. Additionally, the project uses the Geoapify API and the `geoviews` Python library to plan future vacations based on ideal weather conditions.
+This project utilizes Python scripting to analyze weather data for over 500 cities at varying distances from the equator, leveraging the OpenWeatherMap API and the `citipy` library. The analysis aims to explore the relationship between weather variables and latitude. Additionally, the project uses the Geoapify API and the `geoviews` Python library to plan hypothetical vacations based on ideal weather conditions.
 
 ## Part 1: WeatherPy
 
@@ -22,9 +22,6 @@ To visualize and analyze how weather changes as we approach the equator.
    - Separate the data into Northern Hemisphere (latitude >= 0) and Southern Hemisphere (latitude < 0).
    - Create scatter plots with regression lines for each hemisphere and weather variable.
 
-### Findings
-- Summary of key relationships and trends observed between latitude and weather variables.
-
 ## Part 2: VacationPy
 
 ### Objective
@@ -42,8 +39,4 @@ To use weather data to identify potential vacation destinations and nearby hotel
    - Create a map visualization with a point for every city. Point size represents humidity.
    - Add hotel names and country information in hover tooltips for each city.
 
-### Results
-- A DataFrame and an interactive map showing potential vacation destinations and hotels.
 
-## Conclusion
-This project demonstrates the power of Python and APIs in data gathering, analysis, and visualization, particularly for geographical and meteorological data. The insights drawn from this analysis can be utilized for various applications, including travel planning and climate study.
